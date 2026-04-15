@@ -36,7 +36,7 @@ items_db: dict[str, dict] = {}
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to the GEN AI Demo API",
+        "message": "Welcome to the GEN AI Demo API.",
         "status": "running",
         "timestamp": datetime.utcnow().isoformat(),
     }
