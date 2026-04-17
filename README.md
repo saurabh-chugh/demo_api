@@ -1,4 +1,4 @@
-# GNE AI Demo — FastAPI on EC2
+# GEN AI Demo API
 
 A simple FastAPI app deployed to AWS EC2 via GitHub Actions. Built to demo **GNE AI's** error-fixing capabilities.
 
