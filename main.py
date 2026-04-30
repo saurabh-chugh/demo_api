@@ -4,8 +4,8 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPI(
-    title="GEN AI Demo API",
+app = FastAPIxxxxvccc(
+    title="GEN AI Demo API testing",
     description="A simple FastAPI app to showcase GNE AI error-fixing capabilities.",
     version="1.0.0",
 )
