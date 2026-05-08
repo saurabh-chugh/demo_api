@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPIDEMO(
+app = FastAPI(
     title="GEN AI Demo API testing",
     description="A simple FastAPI app to showcase GNE AI error-fixing capabilities.",
     version="1.0.0",
@@ -80,3 +80,8 @@ def delete_item(item_id: str):
         raise HTTPException(status_code=404, detail="Item not found")
     del items_db[item_id]
     return {"message": "Item deleted", "id": item_id}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
