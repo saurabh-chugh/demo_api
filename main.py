@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPIDEMOOOO(
+app = FastAPI(
     title="GEN AI Demo API testing",
     description="A simple FastAPI app to showcase GNE AI error-fixing capabilities.",
     version="1.0.0",
@@ -36,7 +36,7 @@ items_db: dict[str, dict] = {}
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to the GEN AI Demo API.",,,,
+        "message": "Welcome to the GEN AI Demo API.",
         "status": "running",
         "timestamp": datetime.utcnow().isoformat(),
     }
