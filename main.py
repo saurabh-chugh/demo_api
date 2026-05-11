@@ -4,9 +4,9 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPI(
+app = FastAPIDEMO(
     title="GEN AI Demo API testing",
-    description="A simple FastAPI app to showcase GNE AI error-fixing capabilities.",
+    description="A simple FastAPI app to showcase GEN AI error-fixing capabilities.",
     version="1.0.0",
 )
 
