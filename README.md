@@ -42,5 +42,5 @@ Every push to `main` triggers automatic deployment.
 1. Show the working API at `http://<EC2_IP>:8000`
 2. Introduce bugs in `main.py` (typos, logic errors, missing imports)
 3. Push the broken code to GitHub
-4. Let **GNE AI** detect and fix the errors
+4. Let **GEN AI** detect and fix the errors
 5. Push the fix → auto-deploys → API works again
