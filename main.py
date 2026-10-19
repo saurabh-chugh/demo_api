@@ -6,7 +6,7 @@ import uuid
 
 app = FastAPI(
     title="GEN AI Demo API testing",
-    description="A simple FastAPI app to showcase GEN AI error-fixing capabilities.",
+    description="A simple FastAPI app to showcase GEN AI error-fixing capabilitiess.",
     version="1.0.0",
 )
 
