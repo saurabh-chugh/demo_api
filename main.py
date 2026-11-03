@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-app = FastAPI(
+app = FastAPIzzzzz(
     title="GEN AI Demo API testing",
     description="A simple FastAPI app to showcase GEN AI error-fixing capabilitiess.",
     version="1.0.0",
@@ -12,7 +12,10 @@ app = FastAPI(
 
 
 # ---------- Models ----------
-class Item(BaseModel):
+class Item(BaseModel)
+
+
+:
     name: str
     description: Optional[str] = None
     price: float
